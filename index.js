@@ -4,4 +4,3 @@ function findMatching(drivers, string) {
     return name.toLowerCase() === string.toLowerCase()
     })
   }
-}
