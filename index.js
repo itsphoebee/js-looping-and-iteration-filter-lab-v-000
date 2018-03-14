@@ -1,4 +1,6 @@
 // Code your solution in this file
 function findMatching(drivers, string) {
-  drivers.filter(function (name) { return name.toLowerCase() === string.toLowerCase(); })
+  drivers.filter(function (name) {
+    return name.toLowerCase() === string.toLowerCase()
+  })
   }
