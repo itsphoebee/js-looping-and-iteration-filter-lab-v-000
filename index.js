@@ -1,4 +1,4 @@
 // Code your solution in this file
-function findMatching(collection, string) {
-  collection.filter(name { return name === string })
+function findMatching(drivers, string) {
+  drivers.filter(function (name) { return name.toLowerCase() === string.toLowerCase(); })
   }
